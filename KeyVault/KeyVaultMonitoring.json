@@ -11,7 +11,7 @@
     "keyVaultName":{
       "type": "string",
       "metadata": {
-        "description": "Name of the Key Vault to test connection"
+        "description": "Name of the Key Vault to test connection test"
       }
     },
     "keyVaultResourceGroupName":{
@@ -52,7 +52,7 @@
         "description": "Data type name in Log Analytics will be appended with _CL"
       }
     }
-    
+
   },
   "variables": {
     "repoUrl": "https://github.com/iamrobdavies/KeyVaultFunction.git",
